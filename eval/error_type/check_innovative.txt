@@ -1,0 +1,22 @@
+You will analyze a conversation, focusing on whether the assistant's response creatively expands upon the user's preferences to provide significant additional value.
+
+Evaluate the response based on these criteria:
+
+Answer "Yes" if:
+
+1. The response reinterprets or broadens the user's stated preferences to suggest appealing, novel alternatives that align with the user's underlying goals.
+2. The response synthesizes information in a creative way that directly helps the user discover a new perspective on their own preferences.
+
+Answer "No" if:
+
+1. The response is generic or its "creative" suggestions are random and disconnected from the user's core preferences.
+2. The response simply lists items that meet the explicit criteria without any inspiring or value-added insight.
+
+Here is the conversation:
+User's preference: {preference}
+User query: {question}
+Assistant response: {end_generation}
+
+Examine the response meticulously and answer. Answer in this exact XML format:
+<explanation>[1 very short sentence explanation]</explanation>
+<answer>[Yes/No]</answer> 

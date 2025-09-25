@@ -1,0 +1,22 @@
+You will analyze a conversation, focusing on whether the assistant successfully uncovers and addresses the user's deep, unstated (implicit) preferences.
+
+Evaluate the response based on these criteria:
+
+Answer "Yes" if:
+
+1. The response correctly identifies a deeper theme or motivation behind the user's explicit preferences and makes suggestions that cater to this underlying theme.
+2. The response demonstrates deep understanding of user preferences by providing insights that help users better understand their own needs and values.
+
+Answer "No" if:
+
+1. The response only engages with the surface-level preferences and misses obvious connections or deeper themes.
+2. The response makes baseless or stereotypical assumptions about the user's implicit needs.
+
+Here is the conversation:
+User's preference: {preference}
+User query: {question}
+Assistant response: {end_generation}
+
+Examine the response meticulously and answer. Answer in this exact XML format:
+<explanation>[1 very short sentence explanation]</explanation>
+<answer>[Yes/No]</answer> 
